@@ -1,4 +1,7 @@
 const craConfig = require("eslint-config-react-app");
+const {
+  defaultReplacements,
+} = require("eslint-plugin-unicorn/rules/shared/abbreviations.js");
 
 function removeKeysStartingWith(object, prefixes) {
   return Object.fromEntries(
@@ -72,6 +75,26 @@ module.exports = {
     ],
     "unicorn/no-null": "off",
     "unicorn/prefer-top-level-await": "off",
+    "unicorn/prevent-abbreviations": [
+      "error",
+      {
+        replacements: {
+          arg: { argument: false },
+          args: { arguments: false },
+          dev: { development: false },
+          env: { environment: false },
+          envs: { environments: false },
+          param: { parameter: false },
+          params: { parameters: false },
+          prop: { property: false },
+          props: { properties: false },
+          ref: { reference: false },
+          refs: { references: false },
+          temp: { temporary: false },
+          tmp: { temp: true },
+        },
+      },
+    ],
   },
   settings: {
     lintAllEsApis: true,
