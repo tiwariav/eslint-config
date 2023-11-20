@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/tiwariav/eslint-config/compare/v1.0.1...v1.0.2) (2023-11-20)
+
+
+### 🐛 Bug Fixes
+
+* fix eslint-plugin-import for typescript ([ceef430](https://github.com/tiwariav/eslint-config/commit/ceef430963fbb4f8e766c6028532b875c5532716))
+
 ## [1.0.1](https://github.com/tiwariav/eslint-config/compare/v1.0.0...v1.0.1) (2023-11-20)
 
 
