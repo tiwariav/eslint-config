@@ -53,7 +53,7 @@ module.exports = {
   plugins: ["css-modules", "formatjs", "lodash", "sonarjs"],
   root: true,
   rules: {
-    ...removeKeysStartingWith(craConfig.rules, ["flowtype/"]),
+    ...removeKeysStartingWith(craConfig.rules, ["flowtype/", "prop-types/"]),
     "css-modules/no-undef-class": ["error", { camelCase: true }],
     "css-modules/no-unused-class": ["error", { camelCase: true }],
     "eslint-comments/disable-enable-pair": ["error", { allowWholeFile: true }],
