@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/tiwariav/eslint-config/compare/v1.0.2...v1.0.3) (2023-11-20)
+
+
+### 🐛 Bug Fixes
+
+* remove prop-types rules ([e39e21d](https://github.com/tiwariav/eslint-config/commit/e39e21db923ce76210b5b84554777b95ab243c5c))
+
 ## [1.0.2](https://github.com/tiwariav/eslint-config/compare/v1.0.1...v1.0.2) (2023-11-20)
 
 
