@@ -38,6 +38,7 @@ module.exports = {
       extends: [
         "plugin:@typescript-eslint/recommended-type-checked",
         "plugin:@typescript-eslint/stylistic-type-checked",
+        "plugin:import/typescript",
       ],
       files: ["**/*.ts?(x)"],
       parser: "@typescript-eslint/parser",
