@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/tiwariav/eslint-config/compare/v1.0.4...v1.0.5) (2023-11-29)
+
+
+### 🐛 Bug Fixes
+
+* remove unused import ([c8d9aae](https://github.com/tiwariav/eslint-config/commit/c8d9aaedba657f30244a6d3af18a2227518a9b16))
+
 ## [1.0.4](https://github.com/tiwariav/eslint-config/compare/v1.0.3...v1.0.4) (2023-11-21)
 
 
