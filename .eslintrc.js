@@ -1,13 +1,8 @@
-// eslint does not support esm format yet
-
+// eslintrc does not support esm format
 const config = require("./index.js");
 
 module.exports = {
   ...config,
-  parserOptions: {
-    project: ["./tsconfig.json"],
-    tsconfigRootDir: __dirname,
-  },
   rules: {
     ...config.rules,
     "unicorn/prefer-module": "off",
