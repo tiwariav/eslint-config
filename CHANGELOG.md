@@ -1,3 +1,10 @@
+## [1.1.0](https://github.com/tiwariav/eslint-config/compare/v1.0.8...v1.1.0) (2024-01-07)
+
+
+### ✨ Features
+
+* add eslint-patch to include dependencies ([fba2c6b](https://github.com/tiwariav/eslint-config/commit/fba2c6ba4b69a2ef17bb6ff5b8003f6a9938da38))
+
 ## [1.0.8](https://github.com/tiwariav/eslint-config/compare/v1.0.7...v1.0.8) (2024-01-04)
 
 
