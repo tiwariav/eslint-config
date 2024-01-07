@@ -1,7 +1,7 @@
 {
   "name": "@tiwariav/eslint-config",
   "description": "Shared eslint config",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "type": "commonjs",
   "license": "MIT",
   "files": [
