@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/tiwariav/eslint-config/compare/v1.1.0...v1.1.1) (2024-01-08)
+
+
+### 🐛 Bug Fixes
+
+* add missing file into buuild bundle ([21ea15d](https://github.com/tiwariav/eslint-config/commit/21ea15d57c10dd71824a40abe98d1006ef2ba829))
+
 ## [1.1.0](https://github.com/tiwariav/eslint-config/compare/v1.0.8...v1.1.0) (2024-01-07)
 
 
