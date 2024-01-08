@@ -6,6 +6,7 @@
   "license": "MIT",
   "files": [
     "index.js",
+    "rcConfig.js",
     "nextjs.js"
   ],
   "dependencies": {
