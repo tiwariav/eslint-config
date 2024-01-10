@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/tiwariav/eslint-config/compare/v1.1.1...v1.1.2) (2024-01-10)
+
+
+### 🐛 Bug Fixes
+
+* move eslint to peer dependency ([29b90d7](https://github.com/tiwariav/eslint-config/commit/29b90d7950ef63fa628571b1e92c6d18c0c57256))
+
 ## [1.1.1](https://github.com/tiwariav/eslint-config/compare/v1.1.0...v1.1.1) (2024-01-08)
 
 
