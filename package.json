@@ -16,7 +16,6 @@
     "@rushstack/eslint-patch": "^1.6.1",
     "@typescript-eslint/eslint-plugin": "^6.17.0",
     "@typescript-eslint/parser": "^6.17.0",
-    "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-config-react-app": "^7.0.1",
     "eslint-plugin-compat": "^4.2.0",
@@ -43,10 +42,14 @@
     "@types/react": "^18.2.46",
     "@types/react-dom": "^18.2.18",
     "@yarnpkg/sdks": "^3.1.0",
+    "eslint": "^8.56.0",
     "jest": "^29.7.0",
     "prettier": "^3.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "typescript": "^5.3.3"
+  },
+  "peerDependencies": {
+    "eslint": "^8.56.0"
   }
 }
