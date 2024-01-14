@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/tiwariav/eslint-config/compare/v1.1.2...v1.1.3) (2024-01-14)
+
+
+### 🐛 Bug Fixes
+
+* add expectResult as accepted assertFunctionNames ([33cfc4c](https://github.com/tiwariav/eslint-config/commit/33cfc4cd081bf434e0d479893fc6048c5674fbc7))
+
 ## [1.1.2](https://github.com/tiwariav/eslint-config/compare/v1.1.1...v1.1.2) (2024-01-10)
 
 
