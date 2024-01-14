@@ -56,6 +56,12 @@ module.exports = {
     "css-modules/no-unused-class": ["error", { camelCase: true }],
     "eslint-comments/disable-enable-pair": ["error", { allowWholeFile: true }],
     "import/no-unresolved": "off",
+    "jest/expect-expect": [
+      "error",
+      {
+        "assertFunctionNames": ["expect", "expectResult"],
+      }
+    ],
     "lodash/import-scope": ["error", "member"],
     "lodash/prefer-lodash-method": "off",
     "react/jsx-uses-react": "warn",
