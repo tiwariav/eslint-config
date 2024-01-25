@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/tiwariav/eslint-config/compare/v1.1.4...v1.1.5) (2024-01-25)
+
+
+### 🐛 Bug Fixes
+
+* disable buggy typescript-eslint rule ([9c9483b](https://github.com/tiwariav/eslint-config/commit/9c9483b996307dc35231bff5cb2ea7732d505748))
+
 ## [1.1.4](https://github.com/tiwariav/eslint-config/compare/v1.1.3...v1.1.4) (2024-01-25)
 
 
