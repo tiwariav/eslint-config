@@ -45,11 +45,11 @@ module.exports = {
         tsconfigRootDir: process.cwd(),
         warnOnUnsupportedTypeScriptVersion: true,
       },
-      rules: [
+      rules: {
         ...craConfig.overrides[0].rules,
         // disable till resolution of https://github.com/typescript-eslint/typescript-eslint/pull/8262
         "@typescript-eslint/prefer-nullish-coalescing": "off"
-      ],
+      },
     },
   ],
   plugins: ["css-modules", "formatjs", "lodash", "sonarjs"],
