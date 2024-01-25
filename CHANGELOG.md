@@ -1,3 +1,10 @@
+## [1.1.6](https://github.com/tiwariav/eslint-config/compare/v1.1.5...v1.1.6) (2024-01-25)
+
+
+### 🐛 Bug Fixes
+
+* correct syntax of rules ([c2b4e86](https://github.com/tiwariav/eslint-config/commit/c2b4e861dab559bfee0a5b2c1da8b8476caae986))
+
 ## [1.1.5](https://github.com/tiwariav/eslint-config/compare/v1.1.4...v1.1.5) (2024-01-25)
 
 
