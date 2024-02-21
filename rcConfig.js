@@ -48,14 +48,16 @@ module.exports = {
       rules: {
         ...craConfig.overrides[0].rules,
         // disable till resolution of https://github.com/typescript-eslint/typescript-eslint/pull/8262
-        "@typescript-eslint/prefer-nullish-coalescing": "off"
+        "@typescript-eslint/prefer-nullish-coalescing": "off",
+        "@typescript-eslint/no-unused-vars": "off"
       },
     },
   ],
-  plugins: ["css-modules", "formatjs", "lodash", "sonarjs"],
+  plugins: ["css-modules", "formatjs", "lodash", "sonarjs", "unused-imports"],
   root: true,
   rules: {
     ...removeKeysStartingWith(craConfig.rules, ["flowtype/"]),
+    "no-unused-vars": "off",
     "css-modules/no-undef-class": ["error", { camelCase: true }],
     "css-modules/no-unused-class": ["error", { camelCase: true }],
     "eslint-comments/disable-enable-pair": ["error", { allowWholeFile: true }],
@@ -103,6 +105,8 @@ module.exports = {
         },
       },
     ],
+    "unused-imports/no-unused-imports": "error",
+    "unused-imports/no-unused-vars": "error"
   },
   settings: {
     lintAllEsApis: true,
