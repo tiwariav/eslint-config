@@ -1,3 +1,10 @@
+## [1.2.0](https://github.com/tiwariav/eslint-config/compare/v1.1.7...v1.2.0) (2024-02-21)
+
+
+### ✨ Features
+
+* add no-unused-imports plugin ([a86f61d](https://github.com/tiwariav/eslint-config/commit/a86f61d998bc68cce834ec578911a890a64d9b56))
+
 ## [1.1.7](https://github.com/tiwariav/eslint-config/compare/v1.1.6...v1.1.7) (2024-02-20)
 
 
