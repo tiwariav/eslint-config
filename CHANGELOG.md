@@ -1,3 +1,10 @@
+## [2.0.3](https://github.com/tiwariav/eslint-config/compare/v2.0.2...v2.0.3) (2024-03-30)
+
+
+### 🐛 Bug Fixes
+
+* export flatConfig as cjs for vscode issue ([a9b5efd](https://github.com/tiwariav/eslint-config/commit/a9b5efde64d75fe5d4a3514f331f0782ee0a1060))
+
 ## [2.0.2](https://github.com/tiwariav/eslint-config/compare/v2.0.1...v2.0.2) (2024-03-30)
 
 
