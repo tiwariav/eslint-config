@@ -1,3 +1,10 @@
+## [2.0.2](https://github.com/tiwariav/eslint-config/compare/v2.0.1...v2.0.2) (2024-03-30)
+
+
+### 🐛 Bug Fixes
+
+* replace older shared configs with direct rules ([e967ed5](https://github.com/tiwariav/eslint-config/commit/e967ed5ddce9fecf168576e2b89e5f8d56dbe5ba))
+
 ## [2.0.1](https://github.com/tiwariav/eslint-config/compare/v2.0.0...v2.0.1) (2024-03-30)
 
 
