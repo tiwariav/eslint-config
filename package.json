@@ -6,7 +6,7 @@
   "license": "MIT",
   "files": [
     "index.js",
-    "flatConfig.js",
+    "flatConfig.cjs",
     "rcConfig.js",
     "nextjs.js"
   ],
