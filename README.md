@@ -29,6 +29,5 @@ Not supporting flat config
 
 ## Flat config
 
-The file `flatConfig.js` is under progress untill all, or most of the included
-plugins export a flat config. Then we won't need the package `@rushstack/eslint-patch/modern-module-resolution` to include the dependencies without
-installing in consuming application again as peer dependencies. This patch only works when used with the rc config.
+The file `flatConfig.cjs` is a commonjs module because of an issue with vscode-eslint
+<https://github.com/microsoft/vscode-eslint/issues/1620>

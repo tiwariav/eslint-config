@@ -1,29 +1,25 @@
-import { FlatCompat } from "@eslint/eslintrc";
-import js from "@eslint/js";
-import prettier from "eslint-config-prettier";
-import craConfig from "eslint-config-react-app";
-import compatPlugin from 'eslint-plugin-compat';
-import cssModulesPlugin from "eslint-plugin-css-modules";
-import eslintComments from 'eslint-plugin-eslint-comments';
-import formatjsPlugin from "eslint-plugin-formatjs";
-import importPlugin from 'eslint-plugin-import';
-import jest from 'eslint-plugin-jest';
-import jsxA11yPlugin from 'eslint-plugin-jsx-a11y';
-import lodashPlugin from 'eslint-plugin-lodash';
-import perfectionistNatural from "eslint-plugin-perfectionist/configs/recommended-natural";
-import reactHooksPlugin from "eslint-plugin-react-hooks";
-import reactJsx from 'eslint-plugin-react/configs/jsx-runtime.js';
-import reactRecommended from 'eslint-plugin-react/configs/recommended.js';
-import sonarjsPlugin from 'eslint-plugin-sonarjs';
-import storybookPlugin from 'eslint-plugin-storybook';
-import unicorn from "eslint-plugin-unicorn";
-import unusedImportsPlugin from 'eslint-plugin-unused-imports';
-import globals from "globals";
-import tseslint from 'typescript-eslint';
+const js = require("@eslint/js");
+const prettier = require("eslint-config-prettier");
+const craConfig = require("eslint-config-react-app");
+const compatPlugin = require('eslint-plugin-compat');
+const cssModulesPlugin = require("eslint-plugin-css-modules");
+const eslintComments = require('eslint-plugin-eslint-comments');
+const formatjsPlugin = require("eslint-plugin-formatjs");
+const importPlugin = require('eslint-plugin-import');
+const jest = require('eslint-plugin-jest');
+const jsxA11yPlugin = require('eslint-plugin-jsx-a11y');
+const lodashPlugin = require('eslint-plugin-lodash');
+const perfectionistNatural = require("eslint-plugin-perfectionist/configs/recommended-natural");
+const reactHooksPlugin = require("eslint-plugin-react-hooks");
+const reactJsx = require('eslint-plugin-react/configs/jsx-runtime.js');
+const reactRecommended = require('eslint-plugin-react/configs/recommended.js');
+const sonarjsPlugin = require('eslint-plugin-sonarjs');
+const storybookPlugin = require('eslint-plugin-storybook');
+const unicorn = require("eslint-plugin-unicorn");
+const unusedImportsPlugin = require('eslint-plugin-unused-imports');
+const globals = require("globals");
+const tseslint = require('typescript-eslint');
 
-export const rcCompat = new FlatCompat({
-  recommendedConfig: js.configs.recommended
-});
 
 function removeKeysStartingWith(object, prefixes) {
   return Object.fromEntries(
@@ -38,7 +34,7 @@ const settings = {
   },
 };
 
-export default [
+module.exports = [
   js.configs.recommended,
   // enable this config only for ts files
   ...(tseslint.configs.strictTypeChecked.map(config => ({ ...config, files: ["**/*.ts?(x)"] }))),
