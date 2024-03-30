@@ -2,24 +2,30 @@
 
 The config extends recommended configs from:
 
-@typescript-eslint/eslint-plugin
-eslint
-eslint-config-prettier
-eslint-config-react-app/jest
-eslint-plugin-compat
-eslint-plugin-css-modules
-eslint-plugin-eslint-comments
-eslint-plugin-etc
-eslint-plugin-formatjs
-eslint-plugin-import
-eslint-plugin-jsx-a11y
-eslint-plugin-lodash
-eslint-plugin-perfectionist
-eslint-plugin-react
-eslint-plugin-react-hooks
-eslint-plugin-sonarjs
-eslint-plugin-storybook
-eslint-plugin-unicorn
+Supporting flat config
+
+- eslint-config-prettier
+- eslint-config-react-app
+- eslint-plugin-css-modules
+- eslint-plugin-etc
+- eslint-plugin-formatjs
+- eslint-plugin-jest
+- eslint-plugin-perfectionist
+- eslint-plugin-react
+- eslint-plugin-testing-library
+- eslint-plugin-unicorn
+- eslint-plugin-unused-imports
+
+Not supporting flat config
+
+- eslint-plugin-compat
+- eslint-plugin-eslint-comments
+- eslint-plugin-import
+- eslint-plugin-jsx-a11y
+- eslint-plugin-lodash
+- eslint-plugin-react-hooks
+- eslint-plugin-sonarjs
+- eslint-plugin-storybook
 
 ## Flat config
 
