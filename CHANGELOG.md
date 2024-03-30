@@ -1,3 +1,14 @@
+## [2.0.0](https://github.com/tiwariav/eslint-config/compare/v1.2.1...v2.0.0) (2024-03-30)
+
+
+### ⚠ BREAKING CHANGES
+
+* drop support for legacy eslint config
+
+### ✨ Features
+
+* update to flat config ([ca91652](https://github.com/tiwariav/eslint-config/commit/ca91652d95ac2f1926a3d00c62f5380a2795964d))
+
 ## [1.2.1](https://github.com/tiwariav/eslint-config/compare/v1.2.0...v1.2.1) (2024-03-14)
 
 
