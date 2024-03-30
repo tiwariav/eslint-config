@@ -1,3 +1,10 @@
+## [2.0.4](https://github.com/tiwariav/eslint-config/compare/v2.0.3...v2.0.4) (2024-03-30)
+
+
+### 🐛 Bug Fixes
+
+* export missing flatConfig file ([3e7f251](https://github.com/tiwariav/eslint-config/commit/3e7f251ba14cf519f1a21c7a190c486338bfec93))
+
 ## [2.0.3](https://github.com/tiwariav/eslint-config/compare/v2.0.2...v2.0.3) (2024-03-30)
 
 
