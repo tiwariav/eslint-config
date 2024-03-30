@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/tiwariav/eslint-config/compare/v2.0.0...v2.0.1) (2024-03-30)
+
+
+### 🐛 Bug Fixes
+
+* add eslint-patch ([002d9a6](https://github.com/tiwariav/eslint-config/commit/002d9a60960852940d52b54c955ed264637cdac1))
+
 ## [2.0.0](https://github.com/tiwariav/eslint-config/compare/v1.2.1...v2.0.0) (2024-03-30)
 
 
