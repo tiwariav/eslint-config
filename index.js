@@ -1,5 +1,3 @@
-require("@rushstack/eslint-patch/modern-module-resolution");
+import config from "./flatConfig.js";
 
-const rcConfig = require("./rcConfig.js");
-
-module.exports = rcConfig;
+export default config;

@@ -1,6 +1,6 @@
-const config = require("./index.js");
+import config, { rcCompat } from "./flatConfig";
 
-module.exports = {
+export default [
   ...config,
-  extends: [...config.extends, "plugin:@next/next/core-web-vitals"],
-};
+  rcCompat.extends("plugin:@next/next/recommended", "plugin:@next/next/core-web-vitals")
+];

@@ -1,13 +1,20 @@
-const { FlatCompat } = require("@eslint/eslintrc");
-const js = require("@eslint/js");
-const craConfig = require("eslint-config-react-app");
-const formatjs = require("eslint-plugin-formatjs");
-const perfectionistNatural = require("eslint-plugin-perfectionist/configs/recommended-natural");
-const unicorn = require("eslint-plugin-unicorn");
-const globals = require("globals");
-const rcConfig = require("./rcConfig.js");
+import { FlatCompat } from "@eslint/eslintrc";
+import js from "@eslint/js";
+import prettier from "eslint-config-prettier";
+import craConfig from "eslint-config-react-app";
+import formatjs from "eslint-plugin-formatjs";
+import jest from 'eslint-plugin-jest';
+import perfectionistNatural from "eslint-plugin-perfectionist/configs/recommended-natural";
+import reactHooks from "eslint-plugin-react-hooks";
+import reactJsx from 'eslint-plugin-react/configs/jsx-runtime.js';
+import reactRecommended from 'eslint-plugin-react/configs/recommended.js';
+import unicorn from "eslint-plugin-unicorn";
+import globals from "globals";
+import tseslint from 'typescript-eslint';
 
-const rcCompat = new FlatCompat();
+export const rcCompat = new FlatCompat({
+  recommendedConfig: js.configs.recommended
+});
 
 function removeKeysStartingWith(object, prefixes) {
   return Object.fromEntries(
@@ -22,33 +29,60 @@ const settings = {
   },
 };
 
-module.exports = [
+export default [
   js.configs.recommended,
-  ...rcCompat.config(rcConfig),
+  // enable this config only for ts files
+  ...(tseslint.configs.strictTypeChecked.map(config => ({ ...config, files: ["**/*.ts?(x)"] }))),
+  ...tseslint.configs.stylisticTypeChecked,
+  reactRecommended,
+  reactJsx,
+  prettier,
+  ...rcCompat.extends(
+    "plugin:compat/recommended",
+    "plugin:eslint-comments/recommended",
+    "plugin:import/recommended",
+    "plugin:import/typescript",
+    "plugin:jsx-a11y/recommended",
+    "plugin:lodash/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:sonarjs/recommended",
+    "plugin:storybook/recommended",
+  ),
+  ...rcCompat.plugins(
+    "css-modules",
+    "formatjs",
+    "unused-imports"
+  ),
   perfectionistNatural,
   unicorn.configs["flat/recommended"],
+  jest.configs["flat/recommended"],
   {
-    files: ["**/*.{cjs,js?(x),mjs,ts?(x)}"],
     languageOptions: {
       globals: { ...globals.browser, ...globals.node },
     },
     plugins: {
       formatjs,
+      reactHooks,
     },
     rules: {
       ...removeKeysStartingWith(craConfig.rules, ["flowtype/"]),
+      "no-unused-vars": "off",
       "css-modules/no-undef-class": ["error", { camelCase: true }],
       "css-modules/no-unused-class": ["error", { camelCase: true }],
-      "eslint-comments/disable-enable-pair": [
-        "error",
-        { allowWholeFile: true },
-      ],
+      "eslint-comments/disable-enable-pair": ["error", { allowWholeFile: true }],
       "import/no-unresolved": "off",
+      "jest/expect-expect": [
+        "error",
+        {
+          "assertFunctionNames": ["expect", "expectResult"],
+        }
+      ],
       "lodash/import-scope": ["error", "member"],
       "lodash/prefer-lodash-method": "off",
       "react/jsx-uses-react": "warn",
       "react/jsx-uses-vars": "warn",
       "react/prop-types": "off",
+      "react-hooks/exhaustive-deps": "error",
       "sonarjs/cognitive-complexity": "warn",
       "unicorn/filename-case": [
         "warn",
@@ -81,11 +115,27 @@ module.exports = [
           },
         },
       ],
+      "unused-imports/no-unused-imports": "error",
+      "unused-imports/no-unused-vars": "error"
     },
     settings,
   },
   {
     files: ["**/*.ts?(x)"],
-    rules: craConfig.overrides[0].rules,
+    rules: {
+      ...craConfig.overrides[0].rules,
+      "@typescript-eslint/no-unused-vars": "off"
+    },
+    languageOptions: {
+      parser: tseslint.parser,
+      parserOptions: {
+        project: true,
+        tsconfigRootDir: process.cwd(),
+      }
+    },
+  },
+  {
+    files: ["**/*.{cjs,js?(x),mjs}"],
+    ...tseslint.configs.disableTypeChecked,
   },
 ];
