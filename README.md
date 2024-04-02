@@ -27,6 +27,14 @@ Not supporting flat config
 - eslint-plugin-sonarjs
 - eslint-plugin-storybook
 
+## Plugins with known issues
+
+- eslint-plugin-etc  
+The plugin is quite old and doesn't work with latest eslint
+
+- eslint-plugin-import  
+The plugin does not work with flat config. Also utility of the plugin to be tested.
+
 ## Flat config
 
 The file `flatConfig.cjs` is a commonjs module because of an issue with vscode-eslint
