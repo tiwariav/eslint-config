@@ -1,3 +1,10 @@
+## [2.1.0](https://github.com/tiwariav/eslint-config/compare/v2.0.4...v2.1.0) (2024-04-02)
+
+
+### ✨ Features
+
+* enable helpful eslint and typescript eslint rules ([a023926](https://github.com/tiwariav/eslint-config/commit/a0239267b87c4abf28b13b96d32906838482f5be))
+
 ## [2.0.4](https://github.com/tiwariav/eslint-config/compare/v2.0.3...v2.0.4) (2024-03-30)
 
 
