@@ -157,7 +157,7 @@ module.exports = [
       "unicorn/no-nested-ternary": "off",
       "unicorn/no-null": "off",
       // conflicts with prettier
-      "unicorn/no-number-literal-case": "off",
+      "unicorn/number-literal-case": "off",
       "unicorn/no-unused-properties": "error",
       "unicorn/prefer-top-level-await": "off",
       "unicorn/prevent-abbreviations": [
