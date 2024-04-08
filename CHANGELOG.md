@@ -1,3 +1,10 @@
+## [2.1.5](https://github.com/tiwariav/eslint-config/compare/v2.1.4...v2.1.5) (2024-04-08)
+
+
+### 🐛 Bug Fixes
+
+* correct unicorn rule property name ([53e83f7](https://github.com/tiwariav/eslint-config/commit/53e83f77eece81e4f091b1c7ff8ea7dfbfb1a476))
+
 ## [2.1.4](https://github.com/tiwariav/eslint-config/compare/v2.1.3...v2.1.4) (2024-04-08)
 
 
