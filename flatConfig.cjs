@@ -329,7 +329,6 @@ module.exports = [
       "class-methods-use-this": "off",
       "default-param-last": "off",
       "etc/no-t": "error",
-      "etc/throw-error": "error",
       "jsx-expressions/strict-logical-expressions": "error",
       "max-params": "off",
       "no-loop-func": "off",
