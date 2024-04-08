@@ -1,3 +1,10 @@
+## [2.1.1](https://github.com/tiwariav/eslint-config/compare/v2.1.0...v2.1.1) (2024-04-08)
+
+
+### 🐛 Bug Fixes
+
+* remove conflicting check @typescript-eslint/non-nullable-type-assertion-style ([df3bdf8](https://github.com/tiwariav/eslint-config/commit/df3bdf8767603e4405b3304f2a1048799fb6785f))
+
 ## [2.1.0](https://github.com/tiwariav/eslint-config/compare/v2.0.4...v2.1.0) (2024-04-02)
 
 
