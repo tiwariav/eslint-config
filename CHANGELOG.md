@@ -1,3 +1,10 @@
+## [2.1.3](https://github.com/tiwariav/eslint-config/compare/v2.1.2...v2.1.3) (2024-04-08)
+
+
+### 🐛 Bug Fixes
+
+* remove redundant throw error messages ([6863d31](https://github.com/tiwariav/eslint-config/commit/6863d31788c8331f1e0cd9b5c656842837930eb6))
+
 ## [2.1.2](https://github.com/tiwariav/eslint-config/compare/v2.1.1...v2.1.2) (2024-04-08)
 
 
