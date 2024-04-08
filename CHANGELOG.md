@@ -1,3 +1,10 @@
+## [2.1.6](https://github.com/tiwariav/eslint-config/compare/v2.1.5...v2.1.6) (2024-04-08)
+
+
+### ♻️ Code Refactors
+
+* update max-lines-per-function options ([dc0f027](https://github.com/tiwariav/eslint-config/commit/dc0f0271890109f88be5ec814e2886d68b6a4378))
+
 ## [2.1.5](https://github.com/tiwariav/eslint-config/compare/v2.1.4...v2.1.5) (2024-04-08)
 
 
