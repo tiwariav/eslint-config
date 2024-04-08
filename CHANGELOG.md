@@ -1,3 +1,10 @@
+## [2.1.2](https://github.com/tiwariav/eslint-config/compare/v2.1.1...v2.1.2) (2024-04-08)
+
+
+### ♻️ Code Refactors
+
+* udpate packages ([eee2236](https://github.com/tiwariav/eslint-config/commit/eee2236888d58bd356c3ba82742acea9dafa1bad))
+
 ## [2.1.1](https://github.com/tiwariav/eslint-config/compare/v2.1.0...v2.1.1) (2024-04-08)
 
 
