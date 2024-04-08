@@ -1,3 +1,10 @@
+## [2.1.4](https://github.com/tiwariav/eslint-config/compare/v2.1.3...v2.1.4) (2024-04-08)
+
+
+### ♻️ Code Refactors
+
+* disable prettier conflicting rules ([894dcaf](https://github.com/tiwariav/eslint-config/commit/894dcaf6de2dd243fc25c469118d8b4a3c3e0ccb))
+
 ## [2.1.3](https://github.com/tiwariav/eslint-config/compare/v2.1.2...v2.1.3) (2024-04-08)
 
 
