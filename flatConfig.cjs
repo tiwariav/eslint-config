@@ -191,7 +191,6 @@ module.exports = [
       "logical-assignment-operators": "error",
       "max-depth": "warn",
       "max-lines": "warn",
-      "max-lines-per-function": ["warn", { max: 60 }],
       "max-params": "warn",
       "max-statements": "warn",
       "no-alert": "error",
