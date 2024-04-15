@@ -39,7 +39,7 @@ const settings = {
 };
 
 const noMagicNumbersOptions = {
-  ignore: [0, 1, -1],
+  ignore: [-1, 0, 1, 2],
   ignoreArrayIndexes: true,
   ignoreClassFieldInitialValues: true,
   ignoreDefaultValues: true,
