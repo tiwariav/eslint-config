@@ -1,3 +1,10 @@
+## [2.1.9](https://github.com/tiwariav/eslint-config/compare/v2.1.8...v2.1.9) (2024-04-15)
+
+
+### ♻️ Code Refactors
+
+* add '2' to list of ignored magic numbers ([2d90c1b](https://github.com/tiwariav/eslint-config/commit/2d90c1b654acda3ca52a6b573787782bdcc89783))
+
 ## [2.1.8](https://github.com/tiwariav/eslint-config/compare/v2.1.7...v2.1.8) (2024-04-15)
 
 
