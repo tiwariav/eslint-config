@@ -1,3 +1,10 @@
+## [2.1.8](https://github.com/tiwariav/eslint-config/compare/v2.1.7...v2.1.8) (2024-04-15)
+
+
+### 🐛 Bug Fixes
+
+* disable no-throw-literal to prevent conflict with ts rule ([dbd3fdf](https://github.com/tiwariav/eslint-config/commit/dbd3fdfd048d65a9867e3c359974be1fc94cc2a6))
+
 ## [2.1.7](https://github.com/tiwariav/eslint-config/compare/v2.1.6...v2.1.7) (2024-04-11)
 
 
