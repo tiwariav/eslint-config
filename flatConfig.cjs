@@ -210,7 +210,7 @@ module.exports = [
       "no-self-compare": "error",
       "no-shadow": "error",
       "no-template-curly-in-string": "warn",
-      "no-throw-literal": "error",
+      "no-throw-literal": "off",
       "no-unmodified-loop-condition": "error",
       "no-unneeded-ternary": "error",
       "no-unreachable-loop": "error",
