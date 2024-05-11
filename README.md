@@ -39,3 +39,11 @@ The plugin does not work with flat config. Also utility of the plugin to be test
 
 The file `flatConfig.cjs` is a commonjs module because of an issue with vscode-eslint
 <https://github.com/microsoft/vscode-eslint/issues/1620>
+
+## eslint v9 compatibility
+
+Following packages are not compatible with v9 yet:
+
+- eslint-plugin-etc
+- eslint-plugin-jsx-expressions
+- eslint-plugin-react
