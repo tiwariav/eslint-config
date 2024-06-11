@@ -1,3 +1,10 @@
+## [2.1.13](https://github.com/tiwariav/eslint-config/compare/v2.1.12...v2.1.13) (2024-06-11)
+
+
+### ♻️ Code Refactors
+
+* update dependencies ([24bf032](https://github.com/tiwariav/eslint-config/commit/24bf03284df90352c727de3ac0688274159f4da1))
+
 ## [2.1.12](https://github.com/tiwariav/eslint-config/compare/v2.1.11...v2.1.12) (2024-05-11)
 
 
