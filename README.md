@@ -6,6 +6,7 @@ Supporting flat config
 
 - eslint-config-prettier
 - eslint-config-react-app
+- eslint-plugin-compat
 - eslint-plugin-css-modules
 - eslint-plugin-etc
 - eslint-plugin-formatjs
@@ -18,7 +19,6 @@ Supporting flat config
 
 Not supporting flat config
 
-- eslint-plugin-compat
 - eslint-plugin-eslint-comments
 - eslint-plugin-import
 - eslint-plugin-jsx-a11y

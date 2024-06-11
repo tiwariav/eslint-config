@@ -57,6 +57,7 @@ module.exports = [
     files: ["**/*.ts?(x)"],
   })),
   ...tsEslint.configs.stylisticTypeChecked,
+  compatPlugin.configs["flat/recommended"],
   reactRecommended,
   reactJsx,
   prettier,
@@ -68,7 +69,6 @@ module.exports = [
       globals: { ...globals.browser, ...globals.node },
     },
     plugins: {
-      compat: compatPlugin,
       "css-modules": cssModulesPlugin,
       "eslint-comments": eslintCommentsPlugin,
       etc: etcPlugin,
@@ -84,7 +84,6 @@ module.exports = [
       "unused-imports": unusedImportsPlugin,
     },
     rules: {
-      ...compatPlugin.configs.recommended.rules,
       ...eslintCommentsPlugin.configs.recommended.rules,
       ...jsxA11yPlugin.configs.recommended.rules,
       ...lodashPlugin.configs.recommended.rules,
@@ -107,6 +106,7 @@ module.exports = [
       ],
       "jsx-a11y/anchor-ambiguous-text": "warn",
       "jsx-a11y/prefer-tag-over-role": "warn",
+      "jsx-a11y/no-autofocus": "off",
       "lodash/import-scope": ["error", "member"],
       "lodash/prefer-lodash-method": "off",
       "perfectionist/sort-objects": [
